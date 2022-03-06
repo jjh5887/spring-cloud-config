@@ -8,6 +8,7 @@ gateway:
   ip: 172.18.0.5
 
 order_service:
-  url: http://ORDER-SERVICE/order-service/%s/orders
+#   url: http://ORDER-SERVICE/order-service/%s/orders
+  url: changed url
   exception:
     order_is_empty: User's order is Empty
