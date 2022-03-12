@@ -9,6 +9,6 @@ gateway:
 
 order_service:
 #   url: http://ORDER-SERVICE/order-service/%s/orders
-  url: changed url
+  url: atuator test
   exception:
     order_is_empty: User's order is Empty
